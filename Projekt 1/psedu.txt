@@ -1,4 +1,10 @@
+I will make a dungeon with 5 or 10 stages depends how long it will be
+How I will make it:
+ask the user for their name
+recive information from user 
 Ask the user if they want to enter then dungeon
-then recive information from the user it does not matter if they choose yes or no if they yes they enter the dungeon if no they get teleported in and when u entert it u cant leave it.
+then recive information from the user it does not matter if they choose yes or no they will still get teleported in to the dungeon
 When they get in the dungeon it they will enter a waiting room where they can enter lvl 1 of the dungeon
-they recive a question from the game where the game asks if you want to have Sword, 
+they recive a question from the game where the game asks if you want to have Sword, magic staff
+If you choose sword you will recive it in you inventory (list) that is lvl 1 with 10 dmg if you choose magic staff you will recive it the same way as the sword but it will do 10 magic damage.
+and then the dungeon will start 
