@@ -66,10 +66,21 @@ static void ChooseWeapon(List<string> weapons, string weapon1, string weapon2)
 Console.WriteLine($"{nameofuser} you have 5 gold to spend on health potions do you want to use your gold now yes or no?");
 // Using the yes or no loop
 string a = Loop();
+string n = "";
 
 if ("yes" == a)
 {
+    Console.WriteLine("OK, how many?");
     string pAntal = Console.ReadLine();
-    int potion = 0;
+    int potion = 1;
     bool success = int.TryParse(pAntal, out potion);
+    
+    money = money - potion;
+
 }
+else if ("no" == n)
+
+    Console.WriteLine("You will enter the dungeon in 3 seconds");
+    Console.WriteLine("3");
+    Console.WriteLine("2");
+    Console.WriteLine("1");
