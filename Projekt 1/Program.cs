@@ -74,13 +74,17 @@ if ("yes" == a)
     string pAntal = Console.ReadLine();
     int potion = 1;
     bool success = int.TryParse(pAntal, out potion);
-    
+
     money = money - potion;
+    while ("yes" == pAntal)
+    {
+        Console.ReadLine();
+    }
 
 }
 else if ("no" == n)
 
     Console.WriteLine("You will enter the dungeon in 3 seconds");
-    Console.WriteLine("3");
-    Console.WriteLine("2");
-    Console.WriteLine("1");
+Console.WriteLine("3");
+Console.WriteLine("2");
+Console.WriteLine("1");
